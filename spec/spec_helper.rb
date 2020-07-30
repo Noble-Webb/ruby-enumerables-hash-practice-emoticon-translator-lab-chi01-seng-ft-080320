@@ -1,5 +1,7 @@
+require "yaml"
 require_relative "../lib/translator.rb"
 
+
 RSpec.configure do |config|
-  # config here
+  #emoticons = YAML.load_file('emoticons.yml')
 end
